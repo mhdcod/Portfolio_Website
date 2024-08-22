@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+    
+      <a href="#home" class="logo">    <!-- a.nom de la classe ici logo href nous envoyer vers quand on clique dessus-->
+          Mohamed <span>Laouedj</span>            <!-- open span to change inside text color -->
+      </a>  
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">                                <!-- inside navbar insert links -->
+        <a href="#home">Home</a>
+        <a href="#About">About Me</a>
+        <a href="#Services">Services</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact"> Contact </a>
+        
+      </nav>
+
+      <a href="#Contact" class="gradient-btn"> Contact Me </a>
+      
+
+
+    </header>
+
+    <section class="home" id="home">
+
+      <div class="home-content">
+
+        <h1>Hi, it's <span>Mohamed</span></h1>
+
+        <h3>I am an <span>IT student</span></h3>
+
+        <p> 
+          Aspiring Data Engineer and Web Developer passionate about transforming data and building efficient solutions. I'm currently looking for a 10 weeks internship in data analysis and/or web development to enhance my skills and contribute to impactful projects.
+        </p>
+        
+        <div class="social-icons">
+
+          <a href="https://github.com/mhdcod">
+            <i class='bx bxl-github'></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/mohamed-laouedj/">
+            <i class='bx bxl-linkedin-square'></i>    <!-- go for linkdin icon on boxicons.com and copy the font link-->
+          </a>
+
+          <a href="https://medium.com/@mohamedldj24">
+            <i class='bx bxl-medium'></i>
+          </a>
+
+          <a href="#">
+            <i class='bx bxl-instagram-alt'></i>
+          </a>
+
+        </div>
+
+        <div class="btn-group">
+          <a href="#" class="btn">Hire</a>
+          <a href="#Contact" class="btn">Contact</a>
+        </div>
+
+      </div>
+
+      <div class="home-img">
+        <img src="home-img.png" alt="">
+      </div>
+
+    </section>
+
+    <section class="About" id="About">
+
+      <div class="home-img">
+        <img src="home-img.png" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2> About <span> Me </span></h2>
+        <p>Aspiring Data Engineer and Web Developer with a passion for turning data into actionable insights and building seamless digital experiences. Proficient in data management, coding, and web technologies, Whether it's building sleek websites, crafting interactive dashboards, or designing handy tools, I'm all about turning ideas into functional realities. Constantly learning and driven by curiosity, I document my journey and share insights/tutorials on how to code, build, and design things that actually make a difference.</p>
+        <a href="#" class="btn"> Read more </a>
+      </div>
+
+
+    </section>
+
+    <section class="Services" id="Services">
+
+      <h2 class="heading"> Services </h2>
+
+      <div class="services-containers">
+
+        <div class="services-box">
+          <div class="service-info">
+
+            <i class='bx bx-data'></i>     <!-- carte 1 -->
+            <h4> Data analysis </h4>
+            <p>Extracting, cleaning and analyzing datasets to uncover key metrics using SQL queries or Python scripts. I also design responsive dashboards and reports with PowerBI or Google LS tailored to client needs, showcasing essential business metrics for informed decision-making.</p>
+
+          </div>
+        </div>
+
+        <div class="services-box">    <!-- carte 2-->
+          <div class="service-info">
+
+            <i class='bx bx-window-alt'></i>
+            <h4> Web devlopment </h4>
+            <p>
+              Create dynamic, responsive websites using HTML, CSS, and JavaScript, ensuring a seamless and engaging user experience across all devices. Leveraging my strong UX/UI design skills, I craft visually appealing and intuitive interfaces that align perfectly with client goals.
+            </p>
+            
+          </div>
+        </div>
+
+        <!-- <div class="services-box">  
+          <div class="service-info">
+
+            <i class='bx bx-camera-movie'></i>
+            <h4> Clip editing </h4>
+            <p>
+              
+                Provide clip editing services, handling everything from filming the footage to delivering the final edited video using CapCut. Whether it's capturing memorable moments from weddings, vacations, or other personal events, I create engaging short videos that bring your special occasions to life.
+            </p>
+            
+          </div>
+        </div> -->
+
+      </div>
+
+
+    </section>
+
+    <section class="Projects" id="Projects">
+
+      <h2 class="heading"> Projects </h2>
+
+      <div class="projects-box">
+
+        <div class="project-card">
+
+          <img src="projet1.png" alt="">
+
+          <h3> Pizzeria dashboard </h3>
+
+          <p>I designed and implemented a database for a pizzeria client using MySQL Workbench, extracted key business metrics with SQL queries, and created interactive dashboards in Google Looker Studio to visualize the data and enable data driven decision-making for my pizzeria client.
+          </p>
+
+          <a href="https://github.com/mhdcod/Pizza-dashboards" class="btn"> Review project </a>
+          
+        </div>
+        
+        <div class="project-card">
+
+          <img src="Projet3.png" alt="">
+
+          <h3> Job hunting dashboard </h3>
+
+          <p>
+            I'm developing a job-hunting dashboard in Power BI using my own data excel file that tracks my internship applications. The dashboard includes key metrics like total applications, denials, and interviews, with charts showing application trends over time and a map displaying job locations.
+          </p>
+
+          <div class="btn"> Upcoming </div>
+          
+        </div>
+
+        <div class="project-card">
+
+          <img src="Projet2.png" alt="">
+
+          <h3> Portfolio website </h3>
+
+          <p>I built a responsive portfolio website using HTML, CSS, and JavaScript to showcase my services and projects. The site includes an "About Me" section, a contact form, and links, all designed with a clean, user-friendly interface. It effectively highlights my skills and makes it easy for recruiters/clients to connect.</p>
+
+          <div class="btn"> You're on it ^^ </div>
+          
+        </div>
+
+        <div class="project-card">
+
+          <img src="out.png" alt="">
+
+          <h3> Dynamic clock </h3>
+
+          <p>
+            I developed an interactive clock using HTML, CSS, and JavaScript, which displays time in a french with highlighted words. The clock updates in real-time each 5 minutes, features smooth animations, and is fully responsive. This project showcases my front-end development skills and attention to creating user-friendly web applications.
+          </p>
+
+          <a href="https://github.com/mhdcod/Dynamic_clock" class="btn"> Review project </a> <!-- <a href="#https://github.com/mhdcod/Dynamic_clock" class="btn"> Revie project </a> -->
+          
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="Contact" id="Contact">
+
+      <h2 class="heading"> Contact <span>Me</span></h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="27eb69fb-ce6d-4972-a496-f3020662feb4">
+
+        <div class="input-group">
+          
+          <div class="input-box">
+            <input type="text" name="Name" placeholder="Full name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+          </div>
+  
+          <div class="input-box">
+            <input type="number" name="Phone number" placeholder="Phone Number (optional)">
+            <input type="text" name="Subject" placeholder="Subject">
+          </div>
+  
+        </div>
+
+        <div class="input-group2">
+          <textarea name="your_message" id="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+          <input type="submit" value="Send Message" class="btn">
+        </div>
+
+      </form>
+      
+
+    </section>
+
+    <footer class="footer">
+
+      <div class="social-icons">
+
+        <a href="https://github.com/mhdcod">
+          <i class='bx bxl-github'></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/mohamed-laouedj/">
+          <i class='bx bxl-linkedin-square'></i>    <!-- go for linkdin icon on boxicons.com and copy the font link-->
+        </a>
+
+        <a href="https://medium.com/@mohamedldj24">
+          <i class='bx bxl-medium'></i>
+        </a>
+
+        <a href="#">
+          <i class='bx bxl-instagram-alt'></i>
+        </a>
+
+      </div>
+
+      <ul class="list">
+
+        <li> <a href="#"> FAQ </a> </li>
+        <li> <a href="#Services"> Services </a> </li>
+        <li> <a href="#About"> About Me </a> </li>
+        <li> <a href="#Projects"> Projects </a> </li>
+        <li> <a href="#Contact"> Contact </a> </li>
+      </ul>
+
+
+      <p class="copyright">
+        © Mohamed Laouedj | All rights reserved 
+      </p>
+    </footer>
+
+   <script src="script.js"></script>
+  </body>
+</html>
